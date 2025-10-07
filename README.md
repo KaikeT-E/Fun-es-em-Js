@@ -23,3 +23,5 @@ Desvantagens:
 - compreensão de escopo
 - depuração
 - segurança
+
+# -Declaration

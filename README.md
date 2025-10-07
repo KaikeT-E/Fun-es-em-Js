@@ -1,4 +1,4 @@
-# Funções em Js
+# Funções em JS
 
 # -Expression.
 

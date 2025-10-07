@@ -8,7 +8,8 @@ Exemplos:
 
 - let resultado = 10 * 2;
 - let ativo/ifinito = true;
-- let string = "ola" + "mundo";<br/>
+- let string = "ola" + "mundo";
+
 também temos outros tipos como o const.
 
 vantagens: 

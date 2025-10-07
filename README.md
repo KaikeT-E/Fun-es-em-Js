@@ -10,7 +10,7 @@ Exemplos:
 - let ativo/ifinito = true;
 - let string = "ola" + "mundo";
 
-também temos outros tipos como o const.
+Também temos outros tipos como o const.
 
 vantagens: 
 

@@ -7,7 +7,7 @@ O expression é uma função que gera valor. Pode realizar ações(como atribui�
 Exemplos:
 
 - let resultado = 10 * 2;
-- let ativo/ifinito = true;
+- let ativo/infinito = true;
 - let string = "ola" + "mundo";
 
 Também temos outros tipos como o const.

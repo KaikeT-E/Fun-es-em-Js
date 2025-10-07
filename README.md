@@ -1,6 +1,6 @@
 # Funções em JS
 
-# -Expression.
+# - Expression.
 
 O expression é uma função que gera valor. Pode realizar ações(como atribuições) ou retornar resultados.
 
@@ -24,4 +24,4 @@ Desvantagens:
 - depuração
 - segurança
 
-# -Declaration
+# - Declaration.

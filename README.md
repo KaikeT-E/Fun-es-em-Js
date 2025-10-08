@@ -12,7 +12,7 @@ Exemplos:
 
 Também temos outros tipos como o const.
 
-vantagens: 
+Vantagens: 
 
 - simples de usar
 - alta compatibilidade com navegadores
@@ -25,3 +25,52 @@ Desvantagens:
 - segurança
 
 # - Declaration.
+
+O declaration é uma instrução que cria e nomeia uma função, variável ou classe, tornando-se disponível no escopo onde foi declarada.
+
+Exemplos:
+
+- var linguagem = "JavaScript";
+- let versao = 2025;
+- const autor = "Brendan Eich";
+
+funcion cumprimentar () {
+  console.log("bem-vindo")
+}
+cumprimentar(); 
+
+Vantagens:
+
+- flexibilidade na criação e inicialização de variaveis e funções
+- controle de escopo
+- menor risco de declarações acidentais
+
+Desvantagens:
+
+- o var pode causa confusão devido ao hoisting
+- é preiso escolhe corretamente entre var, let e const de acordo com a utilização
+- exige atenção ao escopo de cada tipo de declaração
+
+# - Arrow.
+
+O arrow é uma forma mais curta de declarar as funções. Elas não criam seu proprio this(heram do escopo onde foram criados), o que a torna ideal para callbacks e funções simples.
+
+Exemplos:
+
+- const dobro = n => n * 2;
+  console.log(dobro(8));
+- const boasvindas = nome => 'seja bem-vindo', ${nome}!;
+  console.log(boasvindas("maria"));
+- const calcularArea = (largura, altura) => largura * altura;
+  console.log(calcularArea(5,3));
+
+Vantagens:
+
+- sintaxe curta e direta
+- possibilidade de retorno implícito
+- código limpo e fácil de ler
+
+Desvantagens:
+
+- não podem ser usadas como construtoras
+- por não possuirem seu próprios this, o uso acaba sendo limitade em alguns aspectos

@@ -34,9 +34,9 @@ Exemplos:
 - let versao = 2025;
 - const autor = "Brendan Eich";
 
-funcion cumprimentar () {
-  console.log("bem-vindo")
-}
+funcion cumprimentar () {<br/>
+  console.log("bem-vindo")<br/>
+}<br/>
 cumprimentar(); 
 
 Vantagens:

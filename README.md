@@ -14,9 +14,12 @@ Exemplos:
      let resultado = 10 * 2;
      let ativo = true;
      let string = "ola" + "mundo";
-```
-Também temos outros tipos como o const.
 
+     const mensagem = function(nome) {
+     return `Olá, ${nome}!`;
+     };
+     console.log(mensagem("Lucas")); // Saída: Olá, Lucas!
+```
 Vantagens: 
 
 - simples de usar

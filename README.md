@@ -57,11 +57,11 @@ O arrow é uma forma mais curta de declarar as funções. Elas não criam seu pr
 
 Exemplos:
 
-- const dobro = n => n * 2;
+- const dobro = n => n * 2;<br/>
   console.log(dobro(8));
-- const boasvindas = nome => 'seja bem-vindo', ${nome}!;
+- const boasvindas = nome => 'seja bem-vindo', ${nome}!;<br/>
   console.log(boasvindas("maria"));
-- const calcularArea = (largura, altura) => largura * altura;
+- const calcularArea = (largura, altura) => largura * altura;<br/>
   console.log(calcularArea(5,3));
 
 Vantagens:

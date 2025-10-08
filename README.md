@@ -1,15 +1,20 @@
 # Funções em JS
 
+# O que são as funções em JavaScript?
+
+As funções são uma série/bloco de instruções que executam uma determinada tarefa ou mostram um determinado valor, elas severm para organizar e estruturar o código, evitando repetições, além de poderem receber e retornar dados.
+
 # - Expression.
 
 O expression é uma função que gera valor. Pode realizar ações(como atribuições) ou retornar resultados.
 
 Exemplos:
 
-- let resultado = 10 * 2;
-- let ativo/infinito = true;
-- let string = "ola" + "mundo";
-
+```js
+     let resultado = 10 * 2;
+     let ativo = true;
+     let string = "ola" + "mundo";
+```
 Também temos outros tipos como o const.
 
 Vantagens: 
@@ -30,15 +35,16 @@ O declaration é uma instrução que cria e nomeia uma função, variável ou cl
 
 Exemplos:
 
-- var linguagem = "JavaScript";
-- let versao = 2025;
-- const autor = "Brendan Eich";
+```js
+    var linguagem = "JavaScript";
+    let versao = 2025;
+    const autor = "Brendan Eich";
 
-funcion cumprimentar () {<br/>
-  console.log("bem-vindo")<br/>
-}<br/>
-cumprimentar(); 
-
+    funcion cumprimentar () {
+      console.log("bem-vindo")
+    }
+    cumprimentar(); // saída: bem-vindo
+```
 Vantagens:
 
 - flexibilidade na criação e inicialização de variaveis e funções
@@ -56,14 +62,14 @@ Desvantagens:
 O arrow é uma forma mais curta de declarar as funções. Elas não criam seu proprio this(heram do escopo onde foram criados), o que a torna ideal para callbacks e funções simples.
 
 Exemplos:
-
-- const dobro = n => n * 2;<br/>
-  console.log(dobro(8));
-- const boasvindas = nome => 'seja bem-vindo', ${nome}!;<br/>
-  console.log(boasvindas("maria"));
-- const calcularArea = (largura, altura) => largura * altura;<br/>
-  console.log(calcularArea(5,3));
-
+```js
+    const dobro = n => n * 2;
+    console.log(dobro(8)); // saída: 16
+    const boasvindas = nome => 'seja bem-vindo', ${nome}!;
+    console.log(boasvindas("maria")); // saída: seja bem-vindo, maria!
+    const calcularArea = (largura, altura) => largura * altura;
+    console.log(calcularArea(5,3)); // saída: 15
+```
 Vantagens:
 
 - sintaxe curta e direta
